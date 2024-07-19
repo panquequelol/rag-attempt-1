@@ -13,7 +13,7 @@ ollama pull mxbai-embed-large
 
 ```bash
 pnpm install
-pnpm run dev
+npx tsx example.ts
 ```
 
 si quieres correr un modelo local de ollama, pullea de `ollama.com` y cambia el `Setting.llm`
